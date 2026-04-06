@@ -230,5 +230,5 @@ STORAGES = {
         "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
     },
 }
-if not all(CLOUDINARY_STORAGE.values()):
-    raise Exception("Cloudinary env vars not loaded!")
+# if not all(CLOUDINARY_STORAGE.values()):
+#     raise Exception("Cloudinary env vars not loaded!")

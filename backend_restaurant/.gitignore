@@ -12,7 +12,6 @@ media
 db.sqlite3
 # Django
 staticfiles/
-.env
 
 # IDE
 .idea/
